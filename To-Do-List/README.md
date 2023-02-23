@@ -2,7 +2,8 @@
 # To-Do-List 
 Created a web application which uses ejs, node and express to make a To-do-list.  
 ps: works in mobile and desktop   
-link: https://green-bonobo-sari.cyclic.app/ + Add a [***linkname***] with number if possible
+link: https://green-bonobo-sari.cyclic.app/ + Add a [***linkname***] with number if possible  
+(Example: https://green-bonobo-sari.cyclic.app/Work01 )
 
 ### Used Database:
 mongodb atlas and mongosh

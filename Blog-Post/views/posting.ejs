@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+<div class="postDiv">
+<h1><%= title1 %></h1>
+<p><%= content %></p>
+</div>
+<form action="/delete" method="post">
+   <div class="form-check">
+   <input type="text" class="form-check-input" name="text" style="display:none" value="<%= title1 %> ">
+    <Button class="delBut"  type="submit"  method="post">Delete</Button >
+    </div>
+   </form>
+<%- include("partials/footer"); -%>

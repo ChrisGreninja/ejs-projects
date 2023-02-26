@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 
 ////////////////////////////////////
 mongoose.set("strictQuery", false);
-mongoose.connect("/////// ADD MONGODB ATLAS LINK OR CONNECT TO LOCALHOST /////////", function (err) {
+mongoose.connect("/////// ADD MONGODB ATLAS LINK OR CONNECT TO LOCALHOST ///////// + /ToDoListDB", function (err) {
   if (err) {
     console.log(err);
   } else {

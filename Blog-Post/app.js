@@ -22,7 +22,7 @@ app.use(express.static("public"));
 mongoose.set("strictQuery", false);
 
 mongoose.connect(
-  "mongodb+srv://ChrisGreninja:Chris&241001@clusterchris.jyqbyju.mongodb.net/blogDB",
+  "/////// ADD MONGODB ATLAS LINK OR CONNECT TO LOCALHOST /////////  + /blogDB",
   { useNewUrlParser: true }
 );
 

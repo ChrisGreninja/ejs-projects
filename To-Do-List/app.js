@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 
 ////////////////////////////////////
 mongoose.set("strictQuery", false);
-mongoose.connect("mongodb+srv://ChrisGreninja:Chris&241001@clusterchris.jyqbyju.mongodb.net/todolistDB", function (err) {
+mongoose.connect("/////// ADD MONGODB ATLAS LINK OR CONNECT TO LOCALHOST /////////", function (err) {
   if (err) {
     console.log(err);
   } else {
